@@ -124,42 +124,42 @@
 		<!--light-->
 		<font>
 			<name>light_Menu</name>
-			<filename>default/Light.ttf</filename>
+			<filename>Arita-Dotum-Light.ttf</filename>
 			<size>22</size>
 		</font>
 		<font>
 			<name>light_Settings</name>
-			<filename>default/Light.ttf</filename>
+			<filename>Arita-Dotum-Light.ttf</filename>
 			<size>24</size>
 		</font>
 		<font>
 			<name>light_Home</name>
-			<filename>default/Light.ttf</filename>
+			<filename>Arita-Dotum-Light.ttf</filename>
 			<size>26</size>
 		</font>
 		<font>
 			<name>light_ColumnHeader</name>
-			<filename>default/Light.ttf</filename>
+			<filename>Arita-Dotum-Light.ttf</filename>
 			<size>28</size>
 		</font>
 		<font>
 			<name>light_Dialog</name>
-			<filename>default/Light.ttf</filename>
+			<filename>Arita-Dotum-Light.ttf</filename>
 			<size>30</size>
 		</font>
 		<font>
 			<name>light_Category</name>
-			<filename>default/Light.ttf</filename>
+			<filename>Arita-Dotum-Light.ttf</filename>
 			<size>32</size>
 		</font>
 		<font>
 			<name>light_Header</name>
-			<filename>default/Light.ttf</filename>
+			<filename>Arita-Dotum-Light.ttf</filename>
 			<size>38</size>
 		</font>
 		<font>
 			<name>light_Window</name>
-			<filename>default/Light.ttf</filename>
+			<filename>Arita-Dotum-Light.ttf</filename>
 			<size>48</size>
 			<style>lowercase</style>
 		</font>
