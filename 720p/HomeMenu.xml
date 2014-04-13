@@ -42,7 +42,7 @@
 					<!--submenu items enabled-->		
 					<control type="button" id="101">
 						<label>$LOCALIZE[3]</label>
-						<label2>›</label2>
+						<label2>></label2>
 						<onclick>SetFocus(1111)</onclick>
 						<include>home_MenuButton</include>
 						<visible>!Skin.HasSetting(homemenu.videos.disable) + ![IsEmpty(Skin.String(customitem.video1.label)) + IsEmpty(Skin.String(customitem.video2.label)) + IsEmpty(Skin.String(customitem.video3.label)) + !Skin.HasSetting(videomenu.addons) + !Skin.HasSetting(videomenu.videoplaylists)]</visible>
@@ -121,7 +121,7 @@
 					<!--submenu items enabled-->
 					<control type="button" id="201">
 						<label>$LOCALIZE[342]</label>
-						<label2>›</label2>
+						<label2>></label2>
 						<onclick>SetFocus(2222)</onclick>
 						<include>home_MenuButton</include>
 						<visible>Library.HasContent(movies) + [Skin.HasSetting(moviesmenu.recommended) | Skin.HasSetting(moviesmenu.recent) | Skin.HasSetting(moviesmenu.unwatched) | Skin.HasSetting(moviesmenu.inprogress) | Skin.HasSetting(moviesmenu.genres) | Skin.HasSetting(moviesmenu.years) | Skin.HasSetting(moviesmenu.actors) | Skin.HasSetting(moviesmenu.directors) | Skin.HasSetting(moviesmenu.sets) | Skin.HasSetting(moviesmenu.countries) | Skin.HasSetting(moviesmenu.tags) | Skin.HasSetting(moviesmenu.trailers)]</visible>
@@ -293,7 +293,7 @@
 					<!--submenu items enabled-->		
 					<control type="button" id="301">
 						<label>$LOCALIZE[20343]</label>
-						<label2>›</label2>
+						<label2>></label2>
 						<onclick>SetFocus(3333)</onclick>
 						<include>home_MenuButton</include>
 						<visible>Library.HasContent(tvshows) + [Skin.HasSetting(tvshowsmenu.recent) | Skin.HasSetting(tvshowsmenu.unwatched) | Skin.HasSetting(tvshowsmenu.recommended) | Skin.HasSetting(tvshowsmenu.genres) | Skin.HasSetting(tvshowsmenu.years) | Skin.HasSetting(tvshowsmenu.actors) | Skin.HasSetting(tvshowsmenu.studios) | Skin.HasSetting(tvshowsmenu.tags)]</visible>
@@ -320,7 +320,7 @@
 						<onback>301</onback>
 						<include>home_SubMenuButton</include>
 						<visible>System.HasAddon(service.library.data.provider) + Skin.HasSetting(tvshowsmenu.watchlist) + [Control.HasFocus(3333) | Control.HasFocus(303) | Skin.String(HomeSub,$LOCALIZE[20343])]</visible>
-					</control>
+					</control>-->
 					<!--in progress tvshows-->
 					<control type="button" id="304">
 						<label>$LOCALIZE[575]</label>
@@ -447,7 +447,7 @@
 					<!--submenu items enabled-->
 					<control type="button" id="401">
 						<label>$LOCALIZE[31014]</label>
-						<label2>›</label2>
+						<label2>></label2>
 						<onclick>SetFocus(4444)</onclick>
 						<include>home_MenuButton</include>
 						<visible>System.GetBool(pvrmanager.enabled) + [Skin.HasSetting(tvmenu.channels) | Skin.HasSetting(tvmenu.guide) | Skin.HasSetting(tvmenu.recordings) | Skin.HasSetting(tvmenu.timers)]</visible>
@@ -510,7 +510,7 @@
 					<!--submenu items enabled-->		
 					<control type="button" id="501">
 						<label>$LOCALIZE[2]</label>
-						<label2>›</label2>
+						<label2>></label2>
 						<onclick>SetFocus(5555)</onclick>
 						<include>home_MenuButton</include>
 						<visible>!Skin.HasSetting(homemenu.music.disable) + [Skin.HasSetting(musicmenu.albums) | Skin.HasSetting(musicmenu.recent) | Skin.HasSetting(musicmenu.artists) | Skin.HasSetting(musicmenu.played) | Skin.HasSetting(musicmenu.genres) | Skin.HasSetting(musicmenu.addons) | Skin.HasSetting(musicmenu.playlists) | Skin.HasSetting(musicmenu.partymode) | Skin.HasSetting(musicmenu.lastfm) | Skin.HasSetting(musicmenu.videos)]</visible>
@@ -627,7 +627,7 @@
 					<!--submenu items enabled-->
 					<control type="button" id="602">
 						<label>$LOCALIZE[1]</label>
-						<label2>›</label2>
+						<label2>></label2>
 						<onclick>SetFocus(6666)</onclick>
 						<include>home_MenuButton</include>
 						<visible>!Skin.HasSetting(homemenu.pictures.disable) + Skin.HasSetting(picturesmenu.addons)</visible>
@@ -662,7 +662,7 @@
 					<!--submenu items enabled-->
 					<control type="button" id="701">
 						<label>$LOCALIZE[24001]</label>
-						<label2>›</label2>
+						<label2>></label2>
 						<onclick>SetFocus(7777)</onclick>
 						<include>home_MenuButton</include>
 						<visible>!Skin.HasSetting(homemenu.addons.disable) + [Skin.HasSetting(addonsmenu.video) | Skin.HasSetting(addonsmenu.music) | Skin.HasSetting(addonsmenu.pictures) | Skin.HasSetting(addonsmenu.programs) | Skin.HasSetting(addonsmenu.weather)]</visible>
@@ -733,7 +733,7 @@
 					<!--submenu items enabled-->		
 					<control type="button" id="801">
 						<label>$LOCALIZE[13000]</label>
-						<label2>›</label2>
+						<label2>></label2>
 						<onclick>SetFocus(8888)</onclick>
 						<include>home_MenuButton</include>
 						<visible>[Skin.HasSetting(systemmenu.info) | Skin.HasSetting(systemmenu.filemanager) | Skin.HasSetting(systemmenu.home) | Skin.HasSetting(systemmenu.exit)]</visible>
@@ -795,7 +795,7 @@
 				<!--DISC-->
 					<control type="button" id="901">
 						<label>$LOCALIZE[427]</label>
-						<label2>›</label2>
+						<label2>></label2>
 						<onclick>SetFocus(9999)</onclick>
 						<include>home_MenuButton</include>
 						<visible>System.HasMediadvd + !Skin.HasSetting(homemenu.disc.disable)</visible>

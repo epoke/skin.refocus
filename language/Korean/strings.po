@@ -136,7 +136,7 @@ msgstr "썸네일"
 
 msgctxt "#31114"
 msgid "View"
-msgstr ""
+msgstr "보기"
 
 msgctxt "#31120"
 msgid "Layout"
@@ -180,7 +180,7 @@ msgstr "항목"
 
 msgctxt "#31144"
 msgid "By"
-msgstr "By"
+msgstr "정렬:"
 
 msgctxt "#31145"
 msgid "Genre unknown"
